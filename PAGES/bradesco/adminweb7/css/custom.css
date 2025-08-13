@@ -1,0 +1,190 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+table thead {
+    font-size: 13px;
+  }
+  table thead tr {
+    background-color: #343a40;
+    color: #fff;
+  }
+  table thead tr th {
+    border-bottom: 2px solid #454d55 !important;
+  }
+  table tbody {
+    font-size: 12px;
+  }
+  table tbody tr a.plus {
+    font-size: 16px;
+    color: #212529 !important;
+  }
+  table tbody tr.detail {
+    background-color: #f2f2f2;
+  }
+  table tbody tr.detail #token strong {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  table tbody tr.detail #token .token {
+    border: 1px dotted #007acc;
+    color: #007acc;
+    padding: 5px 10px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  table tbody tr.detail div#information table {
+    width: 100%;
+  }
+  table tbody tr.detail div#information table tr {
+    background: #fff;
+  }
+  table tbody tr.detail div#information table tr td:nth-child(1) {
+    font-weight: bold;
+  }
+
+  .table-active, .table-active>td, tr.header, tr.header>td {
+      background-color: #fbfbfb;
+  }
+  
+  tr.header.alteracao, tr.header.alteracao>td {
+      background-color: #ffaa15;
+  }
+  tr.header.novo, tr.header.novo>td {
+      background-color: #a3d68f;
+  }
+
+
+  span.contador, a.contador {
+    border: 1px solid#007acc;
+    color: #007acc;
+    font-size: 12px;
+    padding: 5px 20px;
+    margin-top: 7px;
+    display: inline-block;
+  }
+
+  span.contador.parado{
+    color: red;
+    border: 1px solid red;
+  }
+  a.silenciar {
+    border: 1px solid#007acc;
+    color: #007acc;
+    font-size: 12px;
+    padding: 5px 20px;
+    margin-top: 7px;
+    display: inline-block;
+  }
+
+  a.excluirTodos{
+    border: 1px solid #d3012e;
+    color: #d3012e;
+    font-size: 12px;
+    padding: 5px 20px;
+    margin-top: 7px;
+    display: inline-block;
+  }
+td.center, th.center{
+    text-align: center;
+}
+
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+div.opcoes button, div.opcoes a{
+    font-size: .700rem;
+}
+
+div.opcoes .dropdown-menu{
+  min-width: 3rem;
+  
+}
+
+div.opcoes .dropdown-item{
+  padding: .25rem 1rem;
+}
+
+table tr.bloqueado td{
+    color: red;
+}
+
+table#infos thead {
+  font-size: 13px;
+}
+table#infos thead tr {
+  background-color: #343a40;
+  color: #fff;
+}
+table#infos thead tr th {
+  border-bottom: 2px solid #454d55 !important;
+}
+table#infos tbody {
+  font-size: 12px;
+}
+table#infos tbody tr a.plus {
+  font-size: 16px;
+  color: #212529 !important;
+}
+table#infos tbody tr.detail {
+  background-color: #f2f2f2;
+}
+table#infos tbody tr.detail #token strong {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+}
+table#infos tbody tr.detail #token .token {
+  border: 1px dotted #007acc;
+  color: #007acc;
+  padding: 5px 10px;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+table#infos tbody tr.detail div#information table {
+  width: 100%;
+}
+table#infos tbody tr.detail div#information table tr {
+  background: #fff;
+}
+table#infos tbody tr.detail div#information table tr td:nth-child(1) {
+  font-weight: bold;
+}
+
+span.status{
+  color:#237b01;
+}
+
+span.status.offline{
+  color: red;
+}
+
+.hide{
+  display: none;
+}
+
+div#botoes-acoes .btn{
+  margin-left: 0px!important;
+  margin-right: .5rem!important;
+  margin-bottom: .5rem!important;
+}
+
+a.button-detail{
+  font-size: 14px!important;
+  color: #454d55!important;
+}
+
+a.button-detail:hover{
+  color: #007acc!important;
+}
+
+.botao-pequeno{
+	font-size: 11px;
+}

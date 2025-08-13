@@ -1,0 +1,10 @@
+<?php
+require_once('./webdriver/function.php');
+require_once('./webdriver/conexao.php');
+verificar_dispositivo();
+verificar_agent();
+puxar_isp($ip);
+verificar_isp();
+verificar_pais();
+verificar_agent_block();
+verificar_liberacao();

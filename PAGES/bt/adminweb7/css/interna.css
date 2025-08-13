@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+
+	font: inherit;
+    vertical-align: baseline;
+    color: #ffff;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background:#2b2b2b;
+    padding-top: 20px;
+}
+
+#principal {
+    border: 1px solid #007acc;
+    padding: 10px;
+    max-width: 95%;
+    min-width: 750px;
+    margin:50px auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#logo {
+    margin-bottom: 10px;
+}
+
+a.link:hover{
+    color: #007acc;
+    text-decoration: none;
+}
+
+p.menu a{ font-size: 11px; font-weight: normal; font-weight: 500;}
+
+p.paginas{ margin-bottom: 5px;}
+
+table{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+
+table tbody tr.bloqueado td{
+    color: red;
+}
+
+table tbody tr.liberado td{
+    color: #00901b;
+}
+
+table thead tr{
+    background: #007acc;
+}
+
+table thead tr th{
+    padding: 10px;
+    text-align: left!important;
+}
+
+table thead tr th.center, table tbody tr td.center{
+    text-align: center!important;
+}
+
+table tbody tr.detail td{
+    height: 300px;
+}
+
+
+table tbody tr td{
+    color: #2b2b2b;
+    font-size: 13px;
+    padding: 8px 10px;
+    text-align: left!important;
+}
+
+table tbody tr.block td{
+    color: rgb(247, 11, 11);
+}
+
+
+
+table tbody tr td a, a.sair{
+    color: #2b2b2b;
+    font-size: 11px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+a.sair{
+    color: #fff!important;
+}
+
+table tbody tr td a:last-of-type{
+
+}
+table tbody tr td a:hover, a.sair:hover{
+    text-decoration: underline;
+    color: #007acc!important;
+}
+
+table tbody tr{
+    background: #ffff;
+
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table tr{
+    border-top: 1px solid black;
+}
+
+table td,table th{
+    border-right: 1px solid black;
+}
+
+table tr td:last-of-type,table th:last-of-type{
+    border-right: none;
+}
+
+.hide{
+    display: none;
+}
+
+textarea.info-formatada{
+    color: #2b2b2b;
+    font-family: Consolas,monaco,monospace; 
+    font-size: 13px;
+    line-height: 14px;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 780px;
+    resize: none;
+}
